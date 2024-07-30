@@ -1,6 +1,5 @@
 import './App.css';
 import * as animate from './animations.js';
-import { Card } from './Card.js'
 import { ClickCapture } from './ClickCapture.js';
 import { MenuCard } from './MenuCard.js';
 import * as media from './media_data.js';
@@ -246,7 +245,7 @@ function Page( {page, title, closeButton, activePage, setActivePage} ) {
             <div id='bio-wrapper'>
               <div id='bio'>
                 <p>Hiya! I'm a computer geek with experience in E-commerce development, web design, and interactive installation design. I studied both Computer Science and Computation Arts to explore the cross section of artistic expression backed by technical knowledge. I've been fortunate to have had opportunities to apply my detail-oriented problem solving abilities in a variety of environments, and am always eager for new ones!</p>
-                <p>Facts</p>
+                <span className='line-break'></span>
                 <ul>
                   <li>Occasional adventure geek. Hiked and snowboarded the South Western USA in a van.</li>
                   <li>Probably makes too many Magic: The Gathering decks.</li>

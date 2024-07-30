@@ -460,6 +460,10 @@ body {
         justify-items: center;
         max-width: 600px;
 
+        ul {
+            padding-inline-start: 10px;
+        }
+
         li {
             margin-bottom: 10px;
         }
@@ -468,6 +472,14 @@ body {
             margin: 10px 45px;
         }
     }
+
+    .line-break {
+        width: 100%;
+        height: $outline-thickness;
+        background-color: black;
+        margin: 25px 0;
+    }
+
 /* to be deleted */
     #links-wrapper {
         display: grid;
