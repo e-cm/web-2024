@@ -541,16 +541,16 @@ body {
   width: 20%;
 }
 .written.experience {
-  max-width: 150px;
+  width: 150px;
 }
 .written.about {
-  max-width: 90px;
+  width: 90px;
 }
 .written.projects {
-  max-width: 125px;
+  width: 125px;
 }
 .written.x {
-  max-width: 35px;
+  width: 35px;
   transition: 0.25s ease;
 }
 .written.x:hover {

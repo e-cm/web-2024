@@ -645,19 +645,23 @@ body {
     }
 
     &.experience {
-        max-width: 150px;
+        //max-width: 150px;
+        width: 150px;
     }
 
     &.about {
-        max-width: 90px;
+        //max-width: 90px;
+        width: 90px;
     }
 
     &.projects {
-        max-width: 125px;
+        //max-width: 125px;
+        width: 125px;
     }
 
     &.x {
-        max-width: 35px;
+        //max-width: 35px;
+        width: 35px;
         transition: 0.25s ease;
     }
 
