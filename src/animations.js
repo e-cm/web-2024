@@ -302,7 +302,8 @@ function fadeIn(target) {
 }
 
 
-window.onload = () => {
+//window.onload = () => {
+export function initialize() {
 
     updateMeasurements();
 

@@ -5,6 +5,7 @@ import { MenuCard } from './MenuCard.js';
 import * as media from './media_data.js';
 import * as svg from './svg_data.js'
 
+import { useEffect } from 'react';
 import { useState } from 'react';
 import Lightbox from "yet-another-react-lightbox";
 import Inline from "yet-another-react-lightbox/plugins/inline";
@@ -406,6 +407,11 @@ function Background() {
 }
 
 export default function App() {
+
+  useEffect(() => {
+    animate.initialize();
+  }, []);
+
   return <Background />
 }
 
