@@ -179,9 +179,9 @@ function Page( {page, title, closeButton, activePage, setActivePage} ) {
               title={[svg.ecommerceSVGs[0], svg.ecommerceSVGs[1]]}
               entity={'Liquor Lodge Inc.'}
               location={'Jasper, AB'}
-              year={'2019 - 2023'}
+              year={'2019 - Current'}
               description={[,
-                <p>- Designed and oversaw all aspects of <a href='https://liquorlodge.ca/'>liquorlodge.ca</a>, the E-commerce arm of a retail liquor business, including web development, product data maintenance, and email marketing.</p>,
+                <p>- Designed and oversee all aspects of <a href='https://liquorlodge.ca/'>liquorlodge.ca</a>, the E-commerce arm of a retail liquor business, including web development, product data maintenance, and email marketing.</p>,
                 '- Developed a Shopify website and designed internal workflow for the creation and maintenance of new products on the site, integrating Shopify and our inventory software GlobalTill.',
                 '- Designed a fulfilment procedure and trained staff on using the requisite internal tools.',
                 '- Increased annual online revenue from $20,000 in 2019 to over $1,000,000 in 2021.'
